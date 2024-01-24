@@ -246,9 +246,11 @@ To set up SentimentArcs, please carefully follow the instructions below as each 
 <li><b>Create SentimentArcs_Notebooks directory structure:</b> 
 <ol><li>Navigate to your SentimentArcs project subdirectory and create/open a new Colab Notebook.
 <li>On the new blank Colab Notebook, to the top left corner and select [File]->[Open Notebook]. When a pop-up window appears, select the [Github] from the right side of the top horizontal menu. 
-<li>Enter 'https://github.com/jon-chun/sentimentarcs_notebooks/blob/main/notebooks/sentiment_arcs_part0_setup.ipynb' on the top line after the prompt [Enter a GitHub URL or search by organization or user], click the search icon, and select 'sentiment_arcs_part1_text_preprocessing.ipynb' from the list below.
+<li>Enter 'https://github.com/jon-chun/sentimentarcs_notebooks/blob/main/notebooks/sentiment_arcs_part0_setup.ipynb' on the top line after the prompt [Enter a GitHub URL or search by organization or user], click the search icon, and select 'sentiment_arcs_part0_setup.ipynb' from the list below.
 <li> When the Colab notebook opens, select [File]->[Save a Copy in Drive] from the top left menu bar to create a copy of this notebook in a new browser tab and switch to the new copy titled 'Copy of...'
-<li>Select the parent directory where to create the SentimentArcs_Notebooks subdirectories and execute all cells (Authorize this Colab notebook to connect to your gDrive).
+<li>Run the first executable cell to authorize this Colab notebook to connect to your gDrive.
+<li>If you don't change anything in the second cell, this notebook will create a folder called sentimentarcs_notebooks in My Drive and will clone the project into that folder. The second cell allows you to specify a different parent directory for the sentimentarcs_notebooks folder in. You must manually create this directory before running this cell. If you create a directory within My Drive named sentiment_arcs, you can choose the dropdown option, or you can type your own directory path.
+<li>Run the second and third cells to clone the project into the specified directory. 
 <li>You should never run SentimentArcs Notebook #0 Setup again (unless deleting and reinstalling)
 </ol>
 </ol>
